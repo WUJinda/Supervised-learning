@@ -5,11 +5,14 @@ Given training input examples and their desired outputs, the aim is to learn a g
 
 >**outputs = continuous values**
 
-![image](F:/ForGithub/Supervised-learning/files/Image.png)
+![image](https://github.com/WUJinda/Supervised-learning/blob/main/files/Image.png?raw=true)
+
 ###Classification
 Given training input examples and their desired outputs, the aim is to learn a general rule that maps inputs to outputs. Once learned, the rule can be deployed on test data.
 
 >**outputs = discrete values (labels)**
+
+![image](https://github.com/WUJinda/Supervised-learning/blob/main/files/Image02.png?raw=true)
 
 # Unsupervised Learning: 
 
@@ -30,6 +33,7 @@ Project the data from a high-dimensional space to two or three dimensions for th
 
 >**outputs = not given**
 
+![image](https://github.com/WUJinda/Supervised-learning/blob/main/files/Image03.png?raw=true)
 
 
 
