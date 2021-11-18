@@ -40,7 +40,7 @@ def tree_image(tree, fout=None):
 
 def plot_tree_progressive():
     X, y = make_moons(n_samples=100, noise=0.25, random_state=3)
-    #plt.figure()
+    plt.figure()
     ax = plt.gca()
     discrete_scatter(X[:, 0], X[:, 1], y, ax=ax)
     ax.set_xticks(())
@@ -58,6 +58,7 @@ def plot_tree_progressive():
         axes[i, 1].imshow(tree_image(tree))
         axes[i, 1].set_axis_off()
 
+    #plt.show()
 
 def plot_tree_partition(X, y, tree, ax=None):
     if ax is None:
